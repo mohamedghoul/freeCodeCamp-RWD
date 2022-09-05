@@ -1,0 +1,70 @@
+* {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+}
+
+#left,
+#right {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Left side of the page */
+
+#left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title,
+#subtitle {
+    text-align: center;
+}
+
+#title {
+    margin: 0.5em;
+}
+
+#subtitle {
+    color: gray;
+    font-style: italic;
+}
+
+#tribute-info {
+    padding: 2em;
+}
+
+#tribute-info>p,
+#tribute-referral {
+    margin: 1rem 2rem;
+}
+
+/* Right side of the page */
+
+#img-div {
+    position: relative;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    position: absolute;
+    top: 90vh;
+    width: fit-content;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
